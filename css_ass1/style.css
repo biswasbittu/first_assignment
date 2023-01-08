@@ -7,12 +7,13 @@
 /* Header and Nevagation style */
 .header {
     background-image: url('../images/banner/banner3.png');
-    background-repeat: no-repeat;
-
-    width: 1600px;
-    height: 808px;
+    background-repeat: no-repeat, center;
+    background-size: cover;
 
 
+    /* from w3 school */
+    height: 500px;
+    position: relative;
 }
 
 nav {
@@ -51,8 +52,8 @@ nav ul li {
     font-size: 65px;
     color: #FFFFFF;
     margin-bottom: 24px;
-    width: 525px;
-    height: 228px;
+    /* width: 525px;
+    height: 228px; */
 }
 
 .banner-discription {
@@ -60,8 +61,8 @@ nav ul li {
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 32px;
-    width: 494px;
-    height: 78px;
+    /* width: 494px;
+    height: 78px; */
 
 }
 
@@ -157,12 +158,18 @@ nav ul li {
 /* main last-part style */
 .advice {
     margin: 130px 230px;
-    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-image:
+        /* url('../images/gradient1.png'),*/
+    ;
     background-repeat: no-repeat;
-
-    width: 1140px;
-    height: 300px;
+    /* from w3 school */
+    background-image: linear-gradient(to right, rgb(4, 70, 131), rgba(4, 77, 146, 0.308)), url('../images/watch.png');
+    /* width: 1140px;
+    height: 300px; */
     padding: 60px 64px;
+
+    background-size: cover;
+    border-radius: 5px;
 }
 
 .always {
@@ -170,4 +177,89 @@ nav ul li {
     font-size: 40px;
     color: #FFFFFF;
     margin-bottom: 24px;
+
+
 }
+
+/* footer style */
+footer {
+    /* border: solid black; */
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    background: #151414;
+
+}
+
+.future-item {
+    padding: 130px 230px;
+}
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+    color: #F8F8F8;
+}
+
+.fut-des {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.fut-eml {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.fut-phon {
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+/* Subscribe part style */
+.subscribe {
+    padding: 130px 230px;
+}
+
+.subs {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.email {
+    font-size: 18px;
+    margin-bottom: 16px;
+   
+    
+
+
+}
+.subs{
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+}
+
+/* background: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px; */
+    .btn-subs{
+        border-radius: 5px;
+    border: 0px;  
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px; 
+    background: #005FAC;
+    color: #FFFFFF;
+    }
