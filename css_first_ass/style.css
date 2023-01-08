@@ -189,7 +189,7 @@ nav ul li {
 footer {
     /* border: solid black; */
     display: flex;
-    gap: 300px;
+    gap: 100px;
     align-items: center;
     background: #151414;
 
