@@ -164,9 +164,7 @@ nav ul li {
 /* main last-part style */
 .advice {
     margin: 130px 230px;
-    background-image:
-        /* url('../images/gradient1.png'),*/
-    ;
+   
     background-repeat: no-repeat;
     /* from w3 school */
     background-image: linear-gradient(to right, rgb(4, 70, 131), rgba(4, 77, 146, 0.411)), url('../images/watch.png');
