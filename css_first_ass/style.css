@@ -12,7 +12,7 @@
 
 
     /* from w3 school */
-    height: 500px;
+    /* height: 500px; */
     position: relative;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 
 /* Banner style */
 .banner {
-    margin: 100px 30px;
+    margin: 30px 30px;
 }
 
 
@@ -51,9 +51,10 @@ nav ul li {
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     /* width: 525px;
     height: 228px; */
+    padding: 200px 1000px 0px 30px;
 }
 
 .banner-discription {
@@ -63,9 +64,14 @@ nav ul li {
     margin-bottom: 32px;
     /* width: 494px;
     height: 78px; */
+    padding: 24px 1000px 0px 30px;
 
 }
-
+ .btn-contcus{
+   padding-top:24px;
+   padding-bottom: 166px;
+   padding-left:30px ;
+ }
 .btn-primary {
     background: #FFFFFF;
     border-radius: 5px;
@@ -75,7 +81,7 @@ nav ul li {
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
-    padding: 20px 25px;
+    padding: 20px 30px;
 }
 
 /* Section style..... */
@@ -163,7 +169,7 @@ nav ul li {
     ;
     background-repeat: no-repeat;
     /* from w3 school */
-    background-image: linear-gradient(to right, rgb(4, 70, 131), rgba(4, 77, 146, 0.308)), url('../images/watch.png');
+    background-image: linear-gradient(to right, rgb(4, 70, 131), rgba(4, 77, 146, 0.411)), url('../images/watch.png');
     /* width: 1140px;
     height: 300px; */
     padding: 60px 64px;
